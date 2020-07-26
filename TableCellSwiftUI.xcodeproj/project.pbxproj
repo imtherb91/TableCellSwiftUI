@@ -15,6 +15,10 @@
 		5A4B0BA324CB534300BC209F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B0BA124CB534300BC209F /* LaunchScreen.storyboard */; };
 		5A4B0BAE24CB534300BC209F /* TableCellSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B0BAD24CB534300BC209F /* TableCellSwiftUITests.swift */; };
 		5A4B0BB924CB534300BC209F /* TableCellSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B0BB824CB534300BC209F /* TableCellSwiftUIUITests.swift */; };
+		5A4B0BC824CB536000BC209F /* CustomRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B0BC724CB536000BC209F /* CustomRowView.swift */; };
+		5A4B0BCA24CB542100BC209F /* CustomRowViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B0BC924CB542100BC209F /* CustomRowViewCell.swift */; };
+		5A4B0BCD24CB592700BC209F /* ThunderPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B0BCC24CB592700BC209F /* ThunderPlayer.swift */; };
+		5A4B0BCF24CB596700BC209F /* ThunderDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B0BCE24CB596700BC209F /* ThunderDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		5A4B0BB424CB534300BC209F /* TableCellSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCellSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4B0BB824CB534300BC209F /* TableCellSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellSwiftUIUITests.swift; sourceTree = "<group>"; };
 		5A4B0BBA24CB534300BC209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4B0BC724CB536000BC209F /* CustomRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRowView.swift; sourceTree = "<group>"; };
+		5A4B0BC924CB542100BC209F /* CustomRowViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRowViewCell.swift; sourceTree = "<group>"; };
+		5A4B0BCC24CB592700BC209F /* ThunderPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderPlayer.swift; sourceTree = "<group>"; };
+		5A4B0BCE24CB596700BC209F /* ThunderDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		5A4B0B9524CB534200BC209F /* TableCellSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5A4B0BC624CB534B00BC209F /* Custom Table Cell */,
 				5A4B0B9624CB534200BC209F /* AppDelegate.swift */,
 				5A4B0B9824CB534200BC209F /* SceneDelegate.swift */,
 				5A4B0B9A24CB534200BC209F /* ViewController.swift */,
@@ -106,6 +115,8 @@
 				5A4B0B9F24CB534300BC209F /* Assets.xcassets */,
 				5A4B0BA124CB534300BC209F /* LaunchScreen.storyboard */,
 				5A4B0BA424CB534300BC209F /* Info.plist */,
+				5A4B0BCC24CB592700BC209F /* ThunderPlayer.swift */,
+				5A4B0BCE24CB596700BC209F /* ThunderDataSource.swift */,
 			);
 			path = TableCellSwiftUI;
 			sourceTree = "<group>";
@@ -126,6 +137,15 @@
 				5A4B0BBA24CB534300BC209F /* Info.plist */,
 			);
 			path = TableCellSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		5A4B0BC624CB534B00BC209F /* Custom Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B0BC724CB536000BC209F /* CustomRowView.swift */,
+				5A4B0BC924CB542100BC209F /* CustomRowViewCell.swift */,
+			);
+			path = "Custom Table Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4B0BC824CB536000BC209F /* CustomRowView.swift in Sources */,
 				5A4B0B9B24CB534200BC209F /* ViewController.swift in Sources */,
+				5A4B0BCF24CB596700BC209F /* ThunderDataSource.swift in Sources */,
 				5A4B0B9724CB534200BC209F /* AppDelegate.swift in Sources */,
+				5A4B0BCD24CB592700BC209F /* ThunderPlayer.swift in Sources */,
 				5A4B0B9924CB534200BC209F /* SceneDelegate.swift in Sources */,
+				5A4B0BCA24CB542100BC209F /* CustomRowViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
